@@ -1,0 +1,209 @@
+*{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.bg1{
+    height: 1000px;
+    background-image: url("../images/bg.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text1{
+    margin-top: 150px;
+    text-align: center; 
+    margin-left: 500px; 
+    width: 800px;
+    margin-bottom: 150px;
+
+}
+
+.text-white{
+    margin-top: auto;
+}
+.mask{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.fond {
+    background-color: rgb(250,250,250);
+    height: 500px;
+    text-align: center;
+}
+
+.rond1 {
+    margin-top: 25%;
+    margin-left: 50%;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: green;
+}
+
+.rond2 {
+    margin-top: 25%;
+    margin-left: 50%;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: yellow;
+}
+
+.rond3 {
+    margin-top: 25%;
+    margin-left: 50%;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: red;
+}
+
+.bgvid{
+    background-size: cover;
+
+}
+
+.bas {
+    height: 150px;
+    width: 100%;
+    background-color: #0092a9 ;
+    text-align: center;
+}
+
+.text_bas {
+    margin-top: 3%;
+}
+
+.baniere{
+    background-color: rgba(255, 119, 0, 1);
+}
+
+.mask2{
+    margin-left: 50%;
+    text-align: right;
+    color: black;
+    width: 40%;
+
+}
+.mask3{
+    margin-left: 10%;
+    text-align: left;
+    color: black;
+    width: 40%;
+
+}
+
+.header{
+    font-weight: bold;
+    color: rgb(255 70 0);
+}
+
+.header_demande{
+    font-weight: bold;
+    color: rgb(255 70 0);
+}
+
+.header2{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(200 70 30)
+}
+
+.header_demande2{
+    font-size: 18px;
+}
+
+.donateur {
+    color: #000000;
+    font-size: 17   px;
+    width: 483px;
+    text-align: left;
+    margin-left: 185px;
+    font-weight: bolder;
+}
+
+.piston {
+    font-size: 20px;
+    color: rgb(200 70 30);
+}
+
+.nouvelles{
+    text-align: center;
+    font-family: Trebuchet MS, sans-serif;
+    
+}
+
+.bottom {
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    background-color: #313738;
+}
+
+.img_bottom{
+    text-align: right;
+}
+
+.img_bottom2{
+    margin-top: 10%;
+    text-align: left;
+}
+
+.img_bottom3{
+    margin-top: 7%;
+    text-align: center;
+    margin-left: 0%;
+}
+
+.text_prog1{
+    text-align: center;
+    width: 400px;
+    margin-left: 27%;
+    border-radius: 25%;
+    
+}
+
+
+.overlay_fondation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  height: auto;
+  width: 40%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(220, 220, 220, 0.5);
+}
+
+.overlay_fondation:hover  {
+  opacity: 1;
+}
+
+.text_fondation {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text_fondation {
+    height: 50px;
+    width: 200px;
+}
+
